@@ -26,9 +26,9 @@ url_builder <- function(station,
   url <- httr::parse_url("http://cdec.water.ca.gov/dynamicapp/req/JSONDataServlet")
 
   #  Add query agruments
-  url$query <- list(Stations = str_c(station, collapse = ','),
-                    SensorNums = str_c(sensor, collapse = ','),
-                    dur_code = str_c(duration, collapse = ','),
+  url$query <- list(Stations = stringr::str_c(station, collapse = ','),
+                    SensorNums = stringr::str_c(sensor, collapse = ','),
+                    dur_code = stringr::str_c(duration, collapse = ','),
                     Start = start_date,
                     End = end_date)
   #  Endpoint
