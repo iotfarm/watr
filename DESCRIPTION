@@ -1,11 +1,16 @@
 Package: watr
 Type: Package
-Title: What the Package Does (Title Case)
+Title: Integration of Water Data APIs
 Version: 0.1.0
-Author: Who wrote it
-Maintainer: The package maintainer <yourself@somewhere.net>
-Description: More about what it does (maybe more than one line)
-    Use four spaces when indenting paragraphs within the Description.
-License: What license is it under?
+Author: Derek Borba <derekborba@gmail.com>
+Maintainer: Derek Borba <derekborba@gmail.com>
+Description: This package will eventually integrate available APIs for accessing water data in California.  Agencies will include CDEC, USGS, USACE and USBR.
+License: GPL-3
 Encoding: UTF-8
 LazyData: true
+Imports: 
+    dplyr,
+    httr,
+    stringr
+URL: https://github.com/iotfarm/watr
+BugReports: https://github.com/iotfarm/watr/issues
