@@ -1,0 +1,29 @@
+#' @title CDEC Station Metadata
+#'
+#' @description A simple \code{tibble} that contains all the metadata available
+#'     for all CDEC station series.
+#'
+#' @format A \code{tibble} with 19-columns, which are:
+#' \describe{
+#' \item{station}{the station acronym used for querying station data}
+#' \item{station_name}{the name of the station}
+#' \item{measurement}{}
+#' \item{units}{measurement units}
+#' \item{gran}{granularity of series}
+#' \item{sensor}{the sensor number for the measurement being monitored}
+#' \item{start_date}{series start date}
+#' \item{end_date}{series end date}
+#' \item{river_basin}{the river basin where the station is located}
+#' \item{hydrologic_area}{the hyrdologic region where the station is located}
+#' \item{county}{the county in which the station is located}
+#' \item{nearby_city}{a nearby city from the station location}
+#' \item{latitude}{latitude of the station}
+#' \item{longitude}{longitude of the station}
+#' \item{elevation}{elevation of the station}
+#' \item{duration}{granularity of the series, useful for building the URL}
+#' \item{sensor_source}{the source of the data}
+#' \item{operator}{the operator of the station}
+#' \item{data_collection}{how the data is collected}
+#' }
+"station_metadata"
+
