@@ -1,3 +1,21 @@
+#' Build URL for CDEC
+#'
+#' @param station
+#' @param sensor
+#' @param duration
+#' @param start_date
+#' @param end_date
+#' @param ...
+#'
+#' @return
+#' @export
+#'
+#' @fromImport httr parse_url
+#' @fromImport httr build_url
+#' @fromImport stringr str_c
+#'
+#' @examples
+#' url_builder('SHA', '15', 'D', '2018-01-01', '2018-02-01')
 url_builder <- function(station,
                         sensor,
                         duration,

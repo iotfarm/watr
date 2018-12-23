@@ -14,3 +14,4 @@ Imports:
     stringr
 URL: https://github.com/iotfarm/watr
 BugReports: https://github.com/iotfarm/watr/issues
+RoxygenNote: 6.1.1

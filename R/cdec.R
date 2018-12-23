@@ -1,3 +1,22 @@
+#' Extract CDEC Data
+#'
+#' @param station
+#' @param sensor
+#' @param duration
+#' @param start_date
+#' @param end_date
+#' @param ...
+#'
+#' @return
+#' @export
+#'
+#' @importFrom jsonlite fromJSON
+#' @importFrom dplyr mutate_all
+#' @importFrom dplyr tbl_df
+
+#' @examples
+#' cdec('SHA', '15', 'D', '2018-01-01', '2018-02-01')
+
 cdec<- function(station,
                 sensor,
                 duration,
