@@ -7,7 +7,7 @@
 apply_header_names(df)
 }
 \arguments{
-\item{df}{}
+\item{df}{A data frame returned by cdec.R}
 }
 \value{
 

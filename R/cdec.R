@@ -13,6 +13,7 @@
 #' @importFrom jsonlite fromJSON
 #' @importFrom dplyr mutate_all
 #' @importFrom dplyr tbl_df
+#' @importFrom dplyr %>%
 
 #' @examples
 #' cdec('SHA', '15', 'D', '2018-01-01', '2018-02-01')

@@ -3,6 +3,7 @@
 export(apply_header_names)
 export(cdec)
 export(url_builder)
+importFrom(dplyr,"%>%")
 importFrom(dplyr,mutate_all)
 importFrom(dplyr,tbl_df)
 importFrom(jsonlite,fromJSON)
