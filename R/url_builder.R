@@ -8,7 +8,6 @@
 #' @param ...
 #'
 #' @return
-#' @export
 #'
 #' @fromImport httr parse_url
 #' @fromImport httr build_url

@@ -9,6 +9,9 @@ url_builder(station, sensor, duration, start_date, end_date, ...)
 \arguments{
 \item{...}{}
 }
+\value{
+
+}
 \description{
 Build URL for CDEC
 }

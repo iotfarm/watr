@@ -4,8 +4,6 @@
 #'
 #' @return
 #'
-#' @export
-#'
 #' @fromImport purrr set_names
 #' @fromImport dplyr %>%
 
