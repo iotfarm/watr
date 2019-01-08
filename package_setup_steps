@@ -1,0 +1,17 @@
+library(usethis)
+
+#  Modify DESCRIPTION FILE
+use_gpl3_license('watr')
+use_package('dplyr')
+use_package('httr')
+use_package('stringr')
+
+Link to GITHUB
+#browse_github_pat()
+Sys.setenv(GITHUB_PAT = 'xxxxxf969xxxxxxxa665a17ffbxxxxxxx')
+use_github(protocol = 'https')
+
+Add data
+data_name <- read_...(data_file)
+use_data(data_name, compress = 'xz')
+
