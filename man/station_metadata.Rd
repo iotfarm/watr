@@ -8,8 +8,8 @@
 \describe{
 \item{station}{the station acronym used for querying station data}
 \item{station_name}{the name of the station}
-\item{measurement}{description of what is measured}
-\item{units}{units of what is measured}
+\item{measurement}{}
+\item{units}{measurement units}
 \item{gran}{granularity of series}
 \item{sensor}{the sensor number for the measurement being monitored}
 \item{start_date}{series start date}
